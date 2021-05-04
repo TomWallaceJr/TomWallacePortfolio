@@ -11,10 +11,10 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Switch>
-        <Route component={LandingPage} path="/" exact />
-        <Route component={About} path="/about" />
-        <Route component={Portfolio} path="/portfolio" />
-        <Route component={Contact} path="/contact" />
+        <LandingPage exact path={'/'} />
+        <About path={'/about'} />
+        <Portfolio path={'/portfolio'} />
+        <Contact path={'/contact'} />
       </Switch>
     </BrowserRouter>
   );

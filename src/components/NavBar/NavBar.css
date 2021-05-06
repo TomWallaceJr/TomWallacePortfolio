@@ -1,8 +1,27 @@
-.brand {
+.menu-label {
   color: var(--clr-accent);
   -webkit-text-stroke: 1px var(--clr-accent);
 }
 
 .nav-container {
   background-color: rgb(27, 23, 23);
+}
+
+@media all and (min-width: 575px) {
+  .menu-label {
+    visibility: hidden;
+  }
+
+  .navbar-nav {
+    margin: auto;
+  }
+
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .nav-link:hover {
+    font-weight: 900;
+    font-style: oblique;
+  }
 }

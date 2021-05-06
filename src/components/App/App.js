@@ -12,7 +12,7 @@ function App() {
       <Header />
       <NavBar />
       <Switch>
-        <About path={'/'} />
+        <About exact path={'/'} />
         <Portfolio path={'/portfolio'} />
         <Contact path={'/contact'} />
       </Switch>

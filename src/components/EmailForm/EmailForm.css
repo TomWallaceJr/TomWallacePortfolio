@@ -1,0 +1,14 @@
+.email-form-container {
+  text-align: center;
+}
+
+.email-form {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.messagebox {
+  height: 100px;
+}

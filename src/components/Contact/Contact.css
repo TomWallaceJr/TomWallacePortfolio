@@ -1,0 +1,18 @@
+.contact-page-main {
+  background-color: var(--clr-dark);
+  padding: 20px;
+}
+
+.contact-page-title {
+  color: var(--clr-light);
+  -webkit-text-stroke: 0.1px var(--clr-accent);
+  font-size: var(--fs-h1);
+  font-family: var(--ff-primary);
+  font-weight: bolder;
+  text-align: center;
+}
+
+.contact-page-p {
+  padding: 0.5em;
+  text-indent: 1.8em;
+}

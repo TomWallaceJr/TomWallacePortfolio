@@ -1,5 +1,5 @@
 // This is an array of objects where each object is a one of my projects with
-// properties associated with them { title img description }
+// properties associated with them { title img description link github}
 // When populating portfolio page with projects we will pull from this file
 
 // EX:
@@ -16,6 +16,8 @@ const portfolio = [
     description: `An artist's portfolio and e-commerce website for personalized pet portraits. 
         This website was developed using React.js and a combination of vanilla and bootstrap CSS. In the
         process of adding shopping cart feature.`,
+    livelink: 'dfgdf',
+    repolink: 'adfsgsd',
   },
   {
     title: 'Dealer Tokes',
@@ -28,6 +30,8 @@ const portfolio = [
      I am in the process of including monthly statements as well as a graphical 
      representation of the users statistics over time. I plan to expand and add numerous 
      features to it over time.`,
+    livelink: 'dfgdf',
+    repolink: 'adfsgsd',
   },
   {
     title: 'Spanish Spaced Repetition',
@@ -40,6 +44,8 @@ const portfolio = [
     It is built for anybody who would like to learn entry level Spanish. Developed using 
     vanilla CSS, Javascript, ReactJs, NodeJs, ExpressJs, Knex and is connected to a 
     PostgreSQL database deployed on Heroku.`,
+    livelink: 'dfgdf',
+    repolink: 'adfsgsd',
   },
 ];
 

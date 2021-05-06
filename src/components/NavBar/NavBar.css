@@ -1,0 +1,4 @@
+.brand {
+  color: var(--clr-accent);
+  -webkit-text-stroke: 1px var(--clr-accent);
+}

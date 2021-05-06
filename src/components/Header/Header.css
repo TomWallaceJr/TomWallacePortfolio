@@ -1,15 +1,7 @@
-/* .intro-outer-container {
-  border: solid 1px red;
-  position: relative;
-  height: 200px;
-  margin: auto;
-  max-width: 1000px;
-  background: var(--clr-light);
-} */
-
 .intro-container {
-  border: solid 1px green;
-  background: var(--clr-light);
+  background-image: url('../../images/lines.jpg');
+  background-size: cover;
+  background-position: center;
   position: relative;
   top: 50%;
   width: 100%;
@@ -17,11 +9,14 @@
   display: grid;
   grid-template-areas: 'img title' 'img subtitle';
   grid-template-columns: min-content max-content;
+  padding: 10px 0;
 }
 
 .intro-title {
+  color: var(--clr-light);
   font-family: var(--ff-primary);
   font-size: var(--fs-h3);
+
   align-self: end;
   display: block;
 }
@@ -29,6 +24,7 @@
 .intro-subtitle {
   font-family: var(--ff-primary);
   background-color: var(--clr-accent);
+  -webkit-text-stroke: 0.3px black;
   font-size: var(--fs-h4);
   align-self: start;
   grid-column: -1 / 1;
@@ -37,7 +33,6 @@
   position: relative;
   width: 100%;
   display: inline-block;
-  padding-left: 10px;
 }
 
 .intro-img {

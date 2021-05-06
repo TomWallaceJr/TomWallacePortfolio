@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import LandingPage from '../LandingPage/LandingPage';
+import Header from '../Header/Header';
 import NavBar from '../NavBar/NavBar';
 import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
@@ -9,10 +9,10 @@ import './App.css';
 function App() {
   return (
     <BrowserRouter>
+      <Header />
       <NavBar />
       <Switch>
-        <LandingPage exact path={'/'} />
-        <About path={'/about'} />
+        <About path={'/'} />
         <Portfolio path={'/portfolio'} />
         <Contact path={'/contact'} />
       </Switch>

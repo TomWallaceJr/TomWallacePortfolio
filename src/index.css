@@ -9,11 +9,25 @@
 :root {
   --ff-primary: 'Girassol', cursive;
   --ff-secondary: 'Roboto Condensed', sans-serif;
+
+  --clr-light: #eed48d;
+  --clr-dark: #38311f;
+  --clr-accent: #8cc2ff;
+
+  --fs-h1: 3rem;
+  --fs-h2: 2rem;
+  --fs-h3: 1.55rem;
+  --fs-h4: 0.9rem;
+  --fs-body: 1 rem;
+
+  --bs: 0.25em 0.25em 0.75em rgb(0, 0, 0, 0.25),
+    0.125em 0.125em 0.25em rgb(0, 0, 0, 0.15);
+
+  background: var(--clr-light);
 }
 
 body {
-  margin: 0;
-  background-color: antiquewhite;
+  background: var(--clr-light);
 }
 
 h1 {

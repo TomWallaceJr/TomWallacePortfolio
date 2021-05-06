@@ -16,7 +16,7 @@ const portfolio = [
     description: `An artist's portfolio and e-commerce website for personalized pet portraits. 
         This website was developed using React.js and a combination of vanilla and bootstrap CSS. In the
         process of adding shopping cart feature.`,
-    livelink: 'mwalldrawings.com',
+    livelink: 'https://www.mwalldrawings.com/',
     repolink: 'https://github.com/TomWallaceJr/mwalldrawings',
   },
   {

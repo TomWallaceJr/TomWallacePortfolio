@@ -1,0 +1,18 @@
+.portfolio-title {
+  background-color: var(--clr-dark);
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  color: var(--clr-light);
+  -webkit-text-stroke: 0.1px var(--clr-accent);
+  font-size: var(--fs-h1);
+  font-family: var(--ff-primary);
+  font-weight: bolder;
+}
+
+.main-container {
+  background-color: var(--clr-dark);
+}
+
+.portfolio-container {
+}

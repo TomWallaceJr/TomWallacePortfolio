@@ -1,0 +1,35 @@
+.project-container {
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  background-color: var(--clr-dark);
+}
+
+.project-title {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  color: var(--clr-light);
+  -webkit-text-stroke: 0.1px var(--clr-accent);
+  font-size: var(--fs-h2);
+  font-family: var(--ff-primary);
+  font-weight: bolder;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  margin: auto;
+}
+
+.details-container {
+  text-align: center;
+}
+
+.project-description {
+  padding-top: 15px;
+  text-indent: 1.8em;
+}

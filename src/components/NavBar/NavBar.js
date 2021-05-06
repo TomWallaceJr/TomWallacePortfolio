@@ -5,10 +5,13 @@ import './NavBar.css';
 
 export default function NavBar() {
   return (
-    <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
-      <Navbar.Brand className="brand" as={Link} to="/">
-        Home
-      </Navbar.Brand>
+    <Navbar
+      collapseOnSelect
+      expand="sm"
+      className="nav-container"
+      variant="dark"
+    >
+      <Navbar.Brand className="brand">Menu</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto"></Nav>

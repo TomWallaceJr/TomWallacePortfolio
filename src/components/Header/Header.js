@@ -8,7 +8,9 @@ export default function Header() {
       <h1 className="intro-title">
         <strong>Thomas Wallace Jr</strong>
       </h1>
-      <p className="intro-subtitle">Full Stack Web Developer</p>
+      <p className="intro-subtitle">
+        <strong>Full Stack Web Developer</strong>
+      </p>
       <img src={selfie} alt="selfie" className="intro-img" />
     </header>
   );

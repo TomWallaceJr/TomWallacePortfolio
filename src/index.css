@@ -11,7 +11,7 @@
   --ff-secondary: 'Roboto Condensed', sans-serif;
 
   --clr-light: #f4fffd;
-  --clr-dark: #6b6d6e;
+  --clr-dark: rgb(27, 23, 23);
   --clr-accent: #89c4ff;
   --clr-accent2: #484041;
 
@@ -19,7 +19,7 @@
   --fs-h2: 2rem;
   --fs-h3: 1.55rem;
   --fs-h4: 0.9rem;
-  --fs-body: 1 rem;
+  --fs-body: 1rem;
 
   --bs: 0.25em 0.25em 0.75em rgb(0, 0, 0, 0.25),
     0.125em 0.125em 0.25em rgb(0, 0, 0, 0.15);
@@ -31,6 +31,7 @@ h1 {
 
 p {
   font-family: var(--ff-secondary);
+  color: white;
 }
 
 /* code {

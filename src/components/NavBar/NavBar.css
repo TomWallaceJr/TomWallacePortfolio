@@ -2,3 +2,7 @@
   color: var(--clr-accent);
   -webkit-text-stroke: 1px var(--clr-accent);
 }
+
+.nav-container {
+  background-color: rgb(27, 23, 23);
+}

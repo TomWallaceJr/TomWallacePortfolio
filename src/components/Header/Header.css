@@ -24,7 +24,7 @@
 .intro-subtitle {
   font-family: var(--ff-primary);
   background-color: var(--clr-accent);
-  -webkit-text-stroke: 0.3px black;
+  color: black;
   font-size: var(--fs-h4);
   align-self: start;
   grid-column: -1 / 1;

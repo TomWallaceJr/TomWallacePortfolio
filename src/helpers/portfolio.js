@@ -42,3 +42,5 @@ const portfolio = [
     PostgreSQL database deployed on Heroku.`,
   },
 ];
+
+export default portfolio;

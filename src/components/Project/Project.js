@@ -17,12 +17,10 @@ export default class Piece extends React.Component {
         <a href={livelink} rel="noreferrer" target="_blank">
           <h1 className="project-title">{title}</h1>
         </a>
-        <div className="image-container">
+        <div className="project-deets-div">
           <img src={imgPath} alt={title} className="project-image" />
+          <p className="project-description">{description}</p>
         </div>
-
-        <p className="project-description">{description}</p>
-        {console.log(description)}
       </article>
     );
   }

@@ -46,3 +46,48 @@
   z-index: 2;
   margin-left: 15px;
 }
+
+@media screen and (min-width: 850px) {
+  .intro-container {
+    background-image: url('../../images/lines.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    display: grid;
+    grid-template-areas: 'img title' 'img subtitle';
+    grid-template-columns: min-content max-content;
+    padding: 10px 0 10px 50px;
+    height: 300px;
+  }
+
+  .intro-title {
+    color: var(--clr-light);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-h1);
+
+    align-self: end;
+    display: block;
+  }
+
+  .intro-subtitle {
+    font-family: var(--ff-primary);
+    background-color: var(--clr-accent);
+    color: black;
+    font-size: var(--fs-h3);
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .intro-img {
+    margin-top: 50px;
+    width: 100%;
+  }
+}

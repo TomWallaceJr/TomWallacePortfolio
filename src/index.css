@@ -25,6 +25,14 @@
     0.125em 0.125em 0.25em rgb(0, 0, 0, 0.15);
 }
 
+#root {
+  background-color: var(--clr-dark);
+}
+
+body {
+  background-color: var(--clr-dark);
+}
+
 h1 {
   font-family: var(--ff-primary);
 }

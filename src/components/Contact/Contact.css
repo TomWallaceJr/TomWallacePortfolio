@@ -16,3 +16,10 @@
   padding: 0.5em;
   text-indent: 1.8em;
 }
+
+@media screen and (min-width: 550px) {
+  .contact-page-main {
+    max-width: 550px;
+    margin: auto;
+  }
+}

@@ -33,3 +33,34 @@
   padding-top: 15px;
   text-indent: 1.8em;
 }
+
+@media screen and (min-width: 500px) {
+  .project-container {
+    padding: 5em;
+  }
+
+  .project-deets-div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .project-title {
+  }
+
+  .project-image {
+    width: 50%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 500px;
+  }
+
+  .project-description {
+    margin: 2em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .project-container {
+    padding: 1em 10em;
+  }
+}

@@ -4,6 +4,7 @@ import NavBar from '../NavBar/NavBar';
 import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Portfolio path={'/portfolio'} />
         <Contact path={'/contact'} />
       </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }

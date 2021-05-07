@@ -37,32 +37,34 @@ export default function About() {
           <div className="value-container">
             <h3 className="core-values-subtitles">Kindness</h3>
             <p>
-              In a world where social media is giving us a convenience no
-              generation before us ever had, many use it to spew hatred and be
-              downright vicious to one another. I am undersanding, empathetic,
-              and kind to everyone.
+              I look for the good qualities in people and treat everyone I meet
+              with respect. I am an empathetic active listener who seeks first
+              to understand a person and then to be understood.
             </p>
           </div>
           <div className="value-container">
-            <h3 className="core-values-subtitles">Service</h3>
+            <h3 className="core-values-subtitles">Service Focused</h3>
             <p>
-              I've been in the service industry since I was 14 years old working
-              at a local restaraunt as a busboy, and I also love helping people.
+              Since working as a busboy at the age of 14, I have always had a
+              customer-first mindset. I've developed exceptional tact over the
+              years and I love helping people.
             </p>
           </div>
           <div className="value-container">
             <h3 className="core-values-subtitles">Determination</h3>
             <p>
-              I've got an all-in attitude. When I make a decision and set my
-              mind to do something I do it. <strong>PERIOD.</strong>
+              I've got an all-in attitude. When I set a goal I achieve it{' '}
+              <strong>PERIOD.</strong>I do this by breaking down large goals
+              into smaller ones and achieve them through discipline,
+              consistency, and self accountability.
             </p>
           </div>
           <div className="value-container">
             <h3 className="core-values-subtitles">Growth</h3>
             <p>
-              I love learning new skills and technologies and am constantly
-              trying to better myself. I am always looking to learn something
-              new or hone my current abilities. I am always sharpening my axe.
+              I thrive on complexity and difficulties and am constantly looking
+              for ways to better myself. I look at failure as an opportunity to
+              learn and eventually succeed. I am always 'sharpening my axe'.
             </p>
           </div>
         </article>
